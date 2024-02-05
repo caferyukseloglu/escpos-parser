@@ -41,7 +41,7 @@ npm install escpos-parser
 // Example usage in a React Native project
 import { parseEscPosFile } from 'escpos-parser';
 
-const filePath = 'path/to/your/PRINTERSTRING.bin';
+const filePath = 'path/to/your/*.bin';
 const result = parseEscPosFile(filePath);
 
 // Do something with the result
@@ -65,4 +65,3 @@ If you encounter any issues or have suggestions, please [open an issue](https://
 ## Acknowledgments
 
 Special thanks to contributors and the open-source community.
-```
