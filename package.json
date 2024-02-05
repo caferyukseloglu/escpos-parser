@@ -1,0 +1,34 @@
+{
+  "name": "escpos-parser",
+  "version": "1.0.0",
+  "description": "An npm package for parsing ESC/POS receipt data in React Native projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "escpos",
+    "parser",
+    "receipt",
+    "React Native",
+    "ESC/POS"
+  ],
+  "author": "Cafer Yükseloğlu (https://github.com/caferyukseloglu)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "iconv": "^3.0.1",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caferyukseloglu/escpos-parser"
+  },
+  "bugs": {
+    "url": "https://github.com/caferyukseloglu/escpos-parser/issues"
+  },
+  "homepage": "https://github.com/caferyukseloglu/escpos-parser"
+}
